@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>Hvad</li>
+                </a>
+                <a href="#">
+                    <li>Hvem</li>
+                </a>
+                <a href="#">
+                    <li>Symptomer</li>
+                </a>
+                <a href="#">
+                    <li>Videoer</li>
+                </a>
+                <a href="#">
+                    <li>Om</li>
+                </a>
+            </ul>
+        </nav>
+        <nav class="right">
+            <ul>
+                <a href="#">
+                    <li>Log på</li>
+                </a>
+            </ul>
+        </nav>
+        <div id="content">
+            @RenderBody()
+        </div>
+        <footer>
+            <p>Vejle sygehus, Vejlevej 42, Vejle</p>
+            <p>&copy; Vejle sygehus</p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    <!--Scripts.Render("~/bundles/bootstrap")-->
+    @RenderSection("scripts", required: false)
+</body>
+</html>
