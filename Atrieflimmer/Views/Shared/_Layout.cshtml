@@ -4,8 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("~/Styles/")
 </head>
 <body>
     <div id="wrapper">
@@ -43,8 +42,7 @@
             <p>&copy; Vejle sygehus</p>
         </footer>
     </div>
-    @Scripts.Render("~/bundles/jquery")
-    <!--Scripts.Render("~/bundles/bootstrap")-->
     @RenderSection("scripts", required: false)
 </body>
 </html>
+
