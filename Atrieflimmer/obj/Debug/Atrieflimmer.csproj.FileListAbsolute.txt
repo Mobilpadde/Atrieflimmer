@@ -16,3 +16,5 @@ C:\Users\Mads\Google Drive\Development\c#\Skole\3. Semester\Atrieflimmer\Atriefl
 C:\Users\Mads\Google Drive\Development\c#\Skole\3. Semester\Atrieflimmer\Atrieflimmer\obj\Debug\Atrieflimmer.csprojResolveAssemblyReference.cache
 C:\Users\Mads\Google Drive\Development\c#\Skole\3. Semester\Atrieflimmer\Atrieflimmer\obj\Debug\Atrieflimmer.dll
 C:\Users\Mads\Google Drive\Development\c#\Skole\3. Semester\Atrieflimmer\Atrieflimmer\obj\Debug\Atrieflimmer.pdb
+C:\Users\Mads\Google Drive\Development\c#\Skole\3. Semester\Atrieflimmer\Atrieflimmer\bin\EntityFramework.dll
+C:\Users\Mads\Google Drive\Development\c#\Skole\3. Semester\Atrieflimmer\Atrieflimmer\bin\EntityFramework.xml
