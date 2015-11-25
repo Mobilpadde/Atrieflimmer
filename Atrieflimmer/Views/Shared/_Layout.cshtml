@@ -10,19 +10,19 @@
     <div id="wrapper">
         <nav>
             <ul>
-                <a href="#">
+                <a href="/Home/page/hvad" class="@(ViewBag.Header == "hvad" ? "selected" : "")">
                     <li>Hvad</li>
                 </a>
-                <a href="#">
+                <a href="/Home/page/hvem" class="@(ViewBag.Header == "hvem" ? "selected" : "")">
                     <li>Hvem</li>
                 </a>
-                <a href="#">
+                <a href="/Home/page/symptomer" class="@(ViewBag.Header == "symptomer" ? "selected" : "")">
                     <li>Symptomer</li>
                 </a>
-                <a href="#">
+                <a href="/Home/page/videoer" class="@(ViewBag.Header == "videoer" ? "selected" : "")">
                     <li>Videoer</li>
                 </a>
-                <a href="#">
+                <a href="/" class="@(ViewBag.Header == "om" ? "selected" : "")">
                     <li>Om</li>
                 </a>
             </ul>
