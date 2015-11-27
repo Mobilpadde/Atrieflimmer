@@ -38,7 +38,7 @@ nav ul a {
     font-weight: bold;
 }
 
-nav ul a:hover, nav ul a.selected {
+nav ul a:hover {
     background: #fa5400;
     color: #282828;
 }
@@ -62,10 +62,6 @@ nav ul a li {
 
 #content .middleCenter img {
     display: inline-block;
-}
-
-#content .text {
-    max-width: 500px;
 }
 
 footer {
