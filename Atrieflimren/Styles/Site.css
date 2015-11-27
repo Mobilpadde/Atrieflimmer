@@ -71,7 +71,7 @@ nav ul a li {
 }
 
 #content .text {
-    max-width: 500px;
+    max-width: 500px; 
     text-align: justify;
     margin-bottom: 100px;
 }
