@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+.clear{ clear: both; }
+
 a, a:visited {
     color: #dddee2;
     text-decoration: none;
@@ -71,10 +73,11 @@ nav ul a li {
 #content .text {
     max-width: 500px;
     text-align: justify;
+    margin-bottom: 100px;
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     left: 150px;
     right: 300px;
