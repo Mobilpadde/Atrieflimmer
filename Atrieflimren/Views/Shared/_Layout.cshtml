@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="/Styles/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <ul>
+                <a href="/Home/page/hvad" class="@(ViewBag.Header == "hvad" ? "selected" : "")">
+                    <li>Hvad</li>
+                </a>
+                <a href="/Home/page/hvem" class="@(ViewBag.Header == "hvem" ? "selected" : "")">
+                    <li>Hvem</li>
+                </a>
+                <a href="/Home/page/symptomer" class="@(ViewBag.Header == "symptomer" ? "selected" : "")">
+                    <li>Symptomer</li>
+                </a>
+                <a href="/Home/page/videoer" class="@(ViewBag.Header == "videoer" ? "selected" : "")">
+                    <li>Videoer</li>
+                </a>
+                <a href="/" class="@(ViewBag.Header == "om" ? "selected" : "")">
+                    <li>Om</li>
+                </a>
+            </ul>
+        </nav>
+        <nav class="right">
+            <ul>
+                <a href="/Account/Login">
+                    <li>Log på</li>
+                </a>
+            </ul>
+        </nav>
+        <div id="content">
+            @RenderBody()
+        </div>
+        <footer>
+            <p>Vejle sygehus, Vejlevej 42, Vejle</p>
+            <p>&copy; Vejle sygehus</p>
+        </footer>
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
